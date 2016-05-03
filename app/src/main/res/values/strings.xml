@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name" translatable="false">SensorMania</string>
+    <string name="action_about">About</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Table of Content Fragment -->
+    <string name="empty">Nothing to display!</string>
+    <string name="nb_items_sg">%1$d sensor detected</string>
+    <string name="nb_items_pl">%1$d sensors detected</string>
+
+    <!-- Sensor info fragment -->
+    <string name="info_title">About the sensor</string>
+    <string name="info_name">Name:</string>
+    <string name="info_vendor">Vendor:</string>
+    <string name="info_version">Version:</string>
+    <string name="info_power">Power:</string>
+    <string name="power_unit" translatable="false">mA</string>
+    <string name="info_resolution">Resolution:</string>
+    <string name="info_max_range">Maximum range:</string>
+    <string name="info_placeholder" translatable="false">----</string>
+
+    <!-- Sensor values fragment -->
+    <string name="value_title">Real-time values</string>
+    <string name="value_accuracy">Accuracy:</string>
+    <string name="last_update">Updates:</string>
+    <string name="last_update_start_value">No value retrieved yet…</string>
+    <string name="last_update_first_value" translatable="false">----</string>
+    <string name="last_update_value_sg">every %1$.3f second</string>
+    <string name="last_update_value_pl">every %1$.3f seconds</string>
+
+    <!-- names of the different possible accuracies -->
+    <string name="accuracy_high">High</string>
+    <string name="accuracy_medium">Medium</string>
+    <string name="accuracy_low">Low</string>
+    <string name="accuracy_unreliable">Unreliable</string>
+    <string name="accuracy_no_contact">No contact</string>
+    <string name="accuracy_unknown" translatable="false">----</string>
+
+    <!-- names of the different sensor types -->
+    <string name="type_unknown">Unknown Sensor</string>
+    <string name="type_accelerometer">Accelerometer</string>
+    <string name="type_ambient_temperature">Temperature</string>
+    <string name="type_game_rotation_vector">Game Rotation Vector</string>
+    <string name="type_gravity">Gravity Sensor</string>
+    <string name="type_geomagnetic_rotation_vector">Geomagnetic Rotation Vector</string>
+    <string name="type_gyroscope">Gyroscope</string>
+    <string name="type_gyroscope_uncalibrated">Gyroscope (uncalibrated)</string>
+    <string name="type_heart_rate">Heart Rate</string>
+    <string name="type_light">Light Sensor</string>
+    <string name="type_linear_acceleration">Linear Acceleration</string>
+    <string name="type_magnetic_field">Magnetic Field</string>
+    <string name="type_magnetic_field_uncalibrated">Magnetic Field (uncalibrated)</string>
+    <string name="type_pressure">Pressure Sensor</string>
+    <string name="type_proximity">Proximity Sensor</string>
+    <string name="type_relative_humidity">Relative Humidity</string>
+    <string name="type_rotation_vector">Rotation Vector</string>
+    <string name="type_orientation">Orientation</string>
+    <string name="type_significant_motion">Significant Motion</string>
+    <string name="type_step_counter">Step Counter</string>
+    <string name="type_step_detector">Step Detector</string>
+
+    <!-- short names of the different sensor types, to be used as icon labels -->
+    <string name="label_unknown">Unknown</string>
+    <string name="label_accelerometer">Acceleration</string>
+    <string name="label_ambient_temperature">Temperature</string>
+    <string name="label_game_rotation_vector">Rotation</string>
+    <string name="label_gravity">Gravity</string>
+    <string name="label_geomagnetic_rotation_vector">Rotation</string>
+    <string name="label_gyroscope">Gyroscope</string>
+    <string name="label_gyroscope_uncalibrated">Gyroscope</string>
+    <string name="label_heart_rate">Heart</string>
+    <string name="label_light">Light</string>
+    <string name="label_linear_acceleration">Acceleration</string>
+    <string name="label_magnetic_field">Magnetic</string>
+    <string name="label_magnetic_field_uncalibrated">Magnetic</string>
+    <string name="label_pressure">Pressure</string>
+    <string name="label_proximity">Proximity</string>
+    <string name="label_relative_humidity">Humidity</string>
+    <string name="label_rotation_vector">Rotation</string>
+    <string name="label_orientation">Orientation</string>
+    <string name="label_significant_motion">Motion</string>
+    <string name="label_step_counter">Step counter</string>
+    <string name="label_step_detector">Step detector</string>
+
+    <!-- description of the different sensor types -->
+    <string name="descr_accelerometer">Measures the acceleration applied to the device (including gravity).</string>
+    <string name="descr_ambient_temperature">Measures the ambient (room) temperature.</string>
+    <string name="descr_game_rotation_vector">Represents the orientation of the device as a combination of an angle θ and an axis. Does not use the geomagnetic field.</string>
+    <string name="descr_gravity">Indicates the direction and magnitude of gravity.</string>
+    <string name="descr_geomagnetic_rotation_vector"> </string>
+    <string name="descr_gyroscope">Measures the rate of rotation around each device axis.</string>
+    <string name="descr_gyroscope_uncalibrated">Measures the rate of rotation around each device axis. No gyro-drift compensation is performed.</string>
+    <string name="descr_heart_rate"> </string>
+    <string name="descr_light">Measure the ambient light level.</string>
+    <string name="descr_linear_acceleration">Measure the acceleration along each device axis, not including gravity.</string>
+    <string name="descr_magnetic_field">Measures the ambient magnetic field.</string>
+    <string name="descr_magnetic_field_uncalibrated">Measures the ambient magnetic field, but excluding the hard iron calibration. (Note: hard iron = distortion due to iron, steel or magnet on the device.</string>
+    <string name="descr_pressure">Measures the atmospheric pressure.</string>
+    <string name="descr_proximity">Measures the distance between an object and the device. (Note: some proximity sensors only support a binary near/far measurement.</string>
+    <string name="descr_relative_humidity">Measures the relative ambient air humidity.</string>
+    <string name="descr_rotation_vector">Represents the orientation of the device as a combination of an angle θ and an axis.</string>
+    <string name="descr_orientation">Computes the device orientation based on the rotation matrix.</string>
+    <string name="descr_significant_motion"> </string>
+    <string name="descr_step_counter"> </string>
+    <string name="descr_step_detector"> </string>
+    <string name="descr_no_info" translatable="false"> </string>
+
+    <!-- strings for the about box -->
+    <string name="about_title">About</string>
+    <string name="about_version">version 1.0</string>
+    <string name="about_description">Discover all the sensors on your device!</string>
+    <string name="about_copyright" translatable="false">© 2015, Tony Guyot</string>
+    <string name="about_credits">Icons by Opoloo (www.androidicons.com)</string>
+</resources>

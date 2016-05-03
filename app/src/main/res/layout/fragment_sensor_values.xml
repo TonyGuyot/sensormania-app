@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:text="@string/value_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/font_subtitle"
+                android:textColor="@color/android_green"
+                android:textStyle="bold"
+                android:layout_span="2"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/label_value1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                />
+            <TextView
+                android:id="@+id/value1"
+                android:text="@string/info_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="@dimen/font_value_normal"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/label_value2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                />
+            <TextView
+                android:id="@+id/value2"
+                android:text="@string/info_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="@dimen/font_value_normal"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/label_value3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                />
+            <TextView
+                android:id="@+id/value3"
+                android:text="@string/info_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="@dimen/font_value_normal"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/value_accuracy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/value_accuracy"
+                android:text="@string/info_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/last_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/last_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/last_update_start_value"
+                />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
